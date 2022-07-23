@@ -8,7 +8,21 @@ function stringLength(str) {
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
-reverseString("hello");
 
-module.exports = {stringLength, reverseString }
+function addition(a,b){
+  return a+b;
+}
+
+function subtraction(a,b){
+  return a-b;
+}
+function multiplication(a,b){
+  return a*b;
+}
+
+function division(a,b){
+  return a/b;
+}
+
+module.exports = {stringLength, reverseString , addition , subtraction, multiplication, division}
 

@@ -1,7 +1,11 @@
 const stringLength = require('./str-function');
 
-const stringlength = stringLength.stringLength
-const reversestring = stringLength.reverseString
+const stringlength = stringLength.stringLength;
+const reversestring = stringLength.reverseString;
+const add = stringLength.addition;
+const subtract = stringLength.subtraction;
+const multiply = stringLength.multiplication;
+const divide = stringLength.division;
 
 describe('theString', () =>{
 test('length is 5', () =>
@@ -20,5 +24,22 @@ test('reverse string -Jorum', () =>{
 })
 })
 
+describe('Calculator functions', () =>{
 
+  test('Addition', () =>
+    expect(add(1,2)).toBe(3)
+  )
+
+  test('Subtraction', () =>
+    expect(subtract(3,2)).toBe(1)
+  )
+
+  test('Multiplication', () =>
+    expect(multiply(3,2)).toBe(6)
+  )
+
+  test('Division', () => {
+    expect(divide(10,2)).toBe(5)
+  })
+})
 
