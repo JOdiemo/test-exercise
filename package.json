@@ -1,0 +1,23 @@
+{
+  "name": "test-exercise",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "stringlength.test.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOdiemo/test-exercise.git"
+  },
+  "author": "Jorum Odiemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOdiemo/test-exercise/issues"
+  },
+  "homepage": "https://github.com/JOdiemo/test-exercise#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
